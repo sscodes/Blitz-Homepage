@@ -1,0 +1,446 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="description" content="This is a general purpose website template, made of only HTML & CSS.">
+	<meta name="author" content="Sanket">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link  href="https://fonts.googleapis.com/css?family=Economica" rel="stylesheet" type="text/css">
+	<script src="https://kit.fontawesome.com/f58878145b.js"></script>
+	<title>Blitz Homepage</title>
+	<style type="text/css">
+		#wrapper
+		{
+			width: 1020px;
+			font-family: arial;
+			position: relative;
+			left: 250px;
+			margin-top: -8px;
+			padding-top: 30px;
+			height: 1100px;
+		}
+		#section1
+		{
+			margin-top: 100px;
+			position: relative;
+			top: -100px;
+			background-color: #F5F5F5;
+		}
+		#section2 
+		{
+			text-align: center;
+			margin-top: 100px;
+			position: relative;
+			top: -650px;
+			background: url(pattern.jpg);
+		}
+		#section3
+		{
+			height: 395px; 
+			width: 1020px;
+			position: relative;
+			top: -600px;
+		}
+		#section4 
+		{
+			width: 1920px;
+			height: 5px;
+			margin-top: 100px;
+			position: relative;
+			top: -700px;
+			left: -500px;
+			background: url(pattern.jpg);
+			margin-bottom: -850px;
+		}
+		#section2 b
+		{
+			letter-spacing: 1px;
+			color: #2F4F4F; 
+			font-size: 25px; 
+			font-family: Economica;
+			background-color: white;
+			padding: 20px;
+		}
+		#section-a
+		{
+			padding-top: 5px;
+			width: 310px;
+			position: relative;
+			top: -50px;
+			padding-left: 10px;
+		}
+		#section-b
+		{
+			padding-top: 5px;
+			width: 340px;
+			position: relative;
+			top: -335px;
+			left: 330px;
+			padding-left: 10px;
+		}
+		#section-c
+		{
+			padding-top: 5px;
+			width: 340px;
+			position: relative;
+			top: -620px;
+			left: 681px;
+			padding-left: 10px;
+		}
+		.imge
+		{
+			width: 220px; 
+			background-color: #F5F5F5; 
+			padding: 10px;
+		}
+		body
+		{
+			max-width: 100%; 
+			overflow-x: hidden;
+		}
+		nav ul
+		{
+			float: left;
+			position: relative;
+			top: -85px;
+			left: 300px;
+		}
+		nav ul li
+		{
+			float: left;
+			padding: 25px;
+		}
+		nav a
+		{
+			text-decoration: none;
+			color: #696969;
+			font-size: 23px;
+		}
+		ul
+		{	
+			float: left;
+			list-style: none;			
+		}
+		ul li
+		{
+			float: left;
+		}
+		footer
+		{
+			background-color: #F5F5F5; 
+			width: 1920px; 
+			padding-top: 25px;
+			padding-bottom: 25px;
+			position: relative;
+			top: 150px;
+			left: -450px;
+			height: 70px;
+		}
+		footer div
+		{
+			text-align: center;
+			font-size: 25px; 
+			color: #2F4F4F; 
+			font-family: Economica;
+		}
+		footer div a
+		{
+			text-decoration: underline; 
+			color: #2F4F4F; 
+			font-family: Economica; 
+			font-size: 25px;
+		}
+		#a1
+		{
+			text-decoration: none; 
+			color: black; 
+			position: relative; 
+			left: 40px;
+		}
+		#a2
+		{
+			text-decoration: none; 
+			color: black; 
+			position: relative; 
+			top: -337px; 
+			left: 300px;
+		}
+		#a3
+		{
+			text-decoration: none; 
+			color: black; 
+			position: relative; 
+			top: -672px; 
+			left: 560px;
+		}
+		#a4
+		{
+			text-decoration: none; 
+			color: black; 
+			position: relative;
+			top: -1008px; 
+			left: 820px;
+		}
+		@media only screen and (max-width: 667px)
+		{
+			#wrapper
+			{
+				width: 100%;
+				font-family: arial;
+				margin-top: -8px;
+				padding-top: 30px;
+			}
+			#section1
+			{
+				height: 450px; 
+			}
+			#section1 img
+			{
+				position: relative;
+				top: -355px;
+				width: 100%;
+			}
+			.xyz
+			{
+				position: relative;
+				top: -355px;
+			}
+			#section-a
+			{
+				width: 100%;
+			}
+			#section-b
+			{
+				width: 100%;
+				position: relative;
+				top: -5px;
+				left: -1px;
+			}
+			#section-c
+			{
+				width: 100%;
+				position: relative;
+				top: 50px;
+				left: -1px;
+			}
+			#section2 
+			{
+				width: 600px;
+				text-align: center;
+				margin-top: 100px;
+				position: relative;
+				top: 25px;
+				background: url(pattern.jpg);
+			}
+			#section3
+			{
+				height: 395px; 
+				width: 1020px;
+				position: relative;
+				top: -575px;
+			}
+			#section4 
+			{
+				width: 1920px;
+				height: 5px;
+				margin-top: 100px;
+				position: relative;
+				top: 400px;
+				left: -500px;
+				background: url(pattern.jpg);
+				margin-bottom: -850px;
+			}
+			footer
+			{
+				background-color: #F5F5F5; 
+				width: 667px; 
+				padding-top: 25px;
+				padding-bottom: 25px;
+				position: relative;
+				top: 1250px;
+				left: -30px;
+				height: 70px;
+			}	
+			#a1
+			{
+				text-decoration: none; 
+				color: black; 
+				position: relative; 
+				left: 40px;
+				top: 670px;
+			}
+			#a2
+			{
+				text-decoration: none; 
+				color: black; 
+				position: relative; 
+				top: 335px; 
+				left: 400px;
+			}
+			#a3
+			{
+				text-decoration: none; 
+				color: black; 
+				position: relative; 
+				top: 380px; 
+				left: 40px;
+			}
+			#a4
+			{
+				text-decoration: none; 
+				color: black; 
+				position: relative;
+				top: 45px; 
+				left: 400px;
+			}
+			#section2 b
+			{
+				letter-spacing: 1px;
+				color: #2F4F4F; 
+				font-size: 25px; 
+				font-family: Economica;
+				background-color: white;
+				padding: 20px;
+			}
+			nav ul
+			{
+				float: left;
+				position: relative;
+				top: -85px;
+			}
+			body
+			{
+				margin-left: -230px;
+				width: 230px;
+			}
+		}
+	</style>
+</head>
+<body>
+	<div id="wrapper">
+		<div>
+			<a href="#">
+				<img src="blitz.jpg" width="200" style="position: relative; top: 10px;">
+			</a>
+			<nav>
+				<ul>
+					<li><a href="#"><div style="font-size: 13px;">HOMEPAGE</div><b style="color:    #2F4F4F;">Home</b></a></li>
+					<li><a href="#"><div style="font-size: 13px;">WHO ARE WE?</div><b style="color: #2F4F4F;">About</b></a></li>
+					<li><a href="#"><div style="font-size: 13px;">OUR PORTFOLIO</div><b style="color: #2F4F4F;">Projects</b></a></li>
+					<li><a href="#"><div style="font-size: 13px;">LATEST NEWS</div><b style="color: #2F4F4F;">Blog</b></a></li>
+					<li><a href="#"><div style="font-size: 13px;">GET IN TOUCH</div><b style="color: #2F4F4F;">Contact</b></a></li>
+				</ul>
+			</nav>
+		</div>
+		<br/>
+		<br/>
+		<div id="section1">
+			<img src="http://lorempixel.com/g/940/424/abstract" width="1020">
+			<div style="padding: 15px;">
+				<b class="xyz" style="font-size: 25px; color: #696969; font-family: Economica;">IMAGE CAPTION TITLE</b>
+				<br/>
+				<br/>
+				<div class="xyz" style="font-size: 17px; font-family: monospace; color: #2F4F4F;">
+					Nulla quis lorem ut libero malesuada feugiat. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin eget tortor risus. Curabitur arcu erat, accumsan id imperdiet et, porttitor at sem.
+				</div>
+			</div>
+			<br/>
+		</div>
+		<section id="abc">
+			<div id="section-a">
+				<i class="fa fa-search" style="font-size: 45px; color: grey; float: left;"></i>
+				<b style="color: #696969; position: relative; left: 20px; font-size: 28px; font-family: Economica;">CHECK OUT OUR LATEST PROJECTS</b>
+				<br/>
+				<br/>
+				<div style="width: 310px; font-family: monospace; color: #2F4F4F;  font-size: 17px;">
+					Pellentesque in ipsum id orci porta dapibus. Quisque velit nisi, pretium ut lacinia in, elementum id enim. Pellentesque in ipsum id orci porta dapibus. Praesent sapien massa, convallis a pellentesque nec, egestas non nisi.
+				</div>
+				<br/>
+				<a href="#" style="text-decoration: none; color: black;"><i class="fa fa-angle-double-right"></i>&nbspFIND OUT MORE</a>
+			</div>
+			<div id="section-b">
+				<i class="fa fa-star" style="font-size: 45px; color: grey; float: left;"></i>
+				<b style="color: #696969; position: relative; left: 20px; font-size: 28px; font-family: Economica;">GUARANTEE 5 STAR QUALITY WORK</b>
+				<br/>
+				<br/>
+				<div style="width: 310px; font-family: monospace; color: #2F4F4F;  font-size: 17px;">
+					Pellentesque in ipsum id orci porta dapibus. Quisque velit nisi, pretium ut lacinia in, elementum id enim. Pellentesque in ipsum id orci porta dapibus. Praesent sapien massa, convallis a pellentesque nec, egestas non nisi.
+				</div>
+				<br/>
+				<a href="#" style="text-decoration: none; color: black;"><i class="fa fa-angle-double-right"></i>&nbsp&nbspFIND OUT MORE</a>
+			</div>
+			<div id="section-c">
+				<i class="fas fa-blog" style="font-size: 45px; color: grey; float: left;"></i>
+				<b style="color: #696969; position: relative; left: 20px; font-size: 28px; font-family: Economica;">STAY CONNECTED BY READING THE BLOG</b>
+				<br/>
+				<br/>
+				<div style="width: 310px; font-family: monospace; color: #2F4F4F;  font-size: 17px;">
+					Pellentesque in ipsum id orci porta dapibus. Quisque velit nisi, pretium ut lacinia in, elementum id enim. Pellentesque in ipsum id orci porta dapibus. Praesent sapien massa, convallis a pellentesque nec, egestas non nisi.
+				</div>
+				<br/>
+				<a href="#" style="text-decoration: none; color: black;"><i class="fa fa-angle-double-right"></i>&nbsp&nbspFIND OUT MORE</a>
+			</div>
+		</section>
+		<section id="section2">
+			<b>OUR LATEST WORKS</b>
+		</section>
+		<section id="section3">
+			<div style="position: relative; left: -40px; height: 1px;">
+				<a href="#" id="a1">
+					<div class="imge">
+					<img src="architecture-beautiful-buildings-1697784.jpg" width="220">
+					<br/>
+					<br/>
+					<b style="font-size: 20px; font-family: Economica;">VALLARTA BROCHURE</b>
+					<br/>
+					<br/> 
+					<div style="font-size: 15px; font-family: monospace;">Quisque velit nisi, pretium ut lacinia in, elementum id enim. Curabitur non nulla sit amet nisl tempus convallis quis ac lectus.</div>
+					</div>
+				</a>
+				<a href="#" id="a2">
+					<div class="imge">
+					<img src="cacti-gardening-grow-707194.jpg" style="position: relative; top: -1px;" width="220">
+					<br/>
+					<br/>
+					<b style="font-size: 20px; font-family: Economica;">PHOTOSHOP TUTORIALS</b>
+					<br/>
+					<br/>
+					<div style="font-size: 15px; font-family: monospace;">Quisque velit nisi, pretium ut lacinia in, elementum id enim. Curabitur non nulla sit amet nisl tempus convallis quis ac lectus.</div>
+					</div>
+				</a>
+				<a href="#" id="a3">
+					<div class="imge">
+					<img src="christmas-christmas-tree-christmas-wallpaper-1070981.jpg" style="position: relative; top: -1px;" width="220">
+					<br/>
+					<br/>
+					<b style="font-size: 20px; font-family: Economica;">BUSINESS CARDS</b>
+					<br/>
+					<br/>
+					<div style="font-size: 15px; font-family: monospace;">Quisque velit nisi, pretium ut lacinia in, elementum id enim. Curabitur non nulla sit amet nisl tempus convallis quis ac lectus.</div>
+					</div>
+				</a>
+				<a href="#" id="a4">
+					<div style="width: 220px; background-color: #F5F5F5; padding: 10px;">
+					<img src="animal-ape-black-face-monkey-731013.jpg" style="position: relative; top: -1px;" width="220">
+					<br/>
+					<br/>
+					<b style="font-size: 20px; font-family: Economica;">WEBSITE DESIGN</b>
+					<br/>
+					<br/>
+					<div style="font-size: 15px; font-family: monospace;">Quisque velit nisi, pretium ut lacinia in, elementum id enim. Curabitur non nulla sit amet nisl tempus convallis quis ac lectus.</div>
+					</div>
+				</a>
+			</div>
+		</section>
+		<section id="section4">
+
+		</section>
+		<footer>
+			<div>
+				&copy; July, 2019. All rights reserved. Sanket Sarkar. <br/>
+				Developed by <a href="#">Sanket Sarkar</a>.			
+			</div>
+		</footer>
+	</div>
+</body>
+</html>
